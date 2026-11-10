@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universo - Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h2>ACERCA DEL PROYECTO</h2>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="contenido.html">Contenido</a>
+                <a href="informacion.html">Información</a>
+                <a href="contacto.html" class="activo">Contacto</a>
+            </nav>
+        </header>
+
+        <main class="contenido-pagina">
+            <section class="datos-alumno">
+                <h3>Datos del alumno</h3>
+                <ul>
+                    <li><strong>Nombre:</strong> Cristian Manuel Hernandez Antonio</li>
+                    <li><strong>Grupo:</strong> 5-A</li>
+                    <li><strong>Escuela:</strong> Centro de Bachilleratos Tecnologico Industrial y de Servicios NO.29</li>
+                    <li><strong>Módulo:</strong> Iriarte Navarro Maria Iriarte</li>
+                    <li><strong>Profesora:</strong> MIV-S2 Implementa Aplicaciones Web</li>
+                </ul>
+                <img src="imagenes/sistema_solar.jpg" alt="Sistema Solar" class="img-datos">
+            </section>
+
+            <section class="formulario-contacto">
+                <h3>Deja tus comentarios</h3>
+                <form action="#" method="get" class="formulario">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Tu correo:</label>
+                    <input type="email" id="correo" name="correo">
+
+                    <label for="mensaje">Comentario o duda:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí lo que piensas sobre el universo..."></textarea>
+
+                    <button type="submit" class="boton-enviar">Enviar</button>
+                </form>
+                <p class="nota">* Este formulario es solo de práctica, no se almacena información.</p>
+            </section>
+        </main>
+
+        <footer>
+            <a href="informacion.html" class="boton">← Anterior</a>
+            <a href="index.html" class="boton">Volver al Inicio 🏠</a>
+        </footer>
+    </div>
+</body>
+</html>
